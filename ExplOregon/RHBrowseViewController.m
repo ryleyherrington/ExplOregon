@@ -136,11 +136,13 @@ typedef enum ScrollDirection {
     
     cell.titleLabel.text = [actDict objectForKey:@"name"];
     cell.cityLabel.text = [places objectForKey:@"city"];
-    
+   
+    /*
     NSData *data = [NSData dataWithContentsOfURL:flickrURL];
     UIImage *img = [[UIImage alloc] initWithData:data cache:NO];
     CGSize size = img.size;
     cell.thumbnail.image = [UIImage alloc] initWith
+     */
     
     return cell;
 }
